@@ -1,0 +1,21 @@
+{
+  "name": "@ikim23/add-one",
+  "version": "1.0.0",
+  "description": "Increment number",
+  "homepage": "https://github.com/ikim23/add-one#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikim23/add-one.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ikim23/add-one/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "author": "ikim23",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
