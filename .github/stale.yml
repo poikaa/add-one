@@ -1,0 +1,28 @@
+#https://github.com/probot/stale
+
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 30
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 7
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - 'Type: Bug'
+  - 'Type: Needs Investigation'
+# Label to use when marking an issue as stale
+staleLabel: 'Resolution: Stale'
+issues:
+  # Comment to post when marking an issue as stale.
+  markComment: >
+    This issue has been automatically marked as stale.
+    If this issue is still affecting you, please leave any comment.
+  # Comment to post when closing a stale issue.
+  closeComment: >
+    Closing this issue after a prolonged period of inactivity.
+pulls:
+  # Comment to post when marking a pull request as stale.
+  markComment: >
+    This pull request has been automatically marked as stale.
+    If this pull request is still relevant, please leave any comment.
+  # Comment to post when closing a stale pull request.
+  closeComment: >
+    Closing this pull request after a prolonged period of inactivity.
