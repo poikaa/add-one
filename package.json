@@ -22,8 +22,11 @@
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.2"
+    "husky": "^7.0.2",
+    "semantic-release": "^18.0.0"
   },
   "config": {
     "commitizen": {
@@ -33,6 +36,22 @@
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "dryRun": true,
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "message": "chore(release): ${nextRelease.version}"
+        }
+      ]
     ]
   }
 }
