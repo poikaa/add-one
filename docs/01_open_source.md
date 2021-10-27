@@ -4,6 +4,7 @@
 - We can learn from it by:
   - reading others code
   - receiving feedback on PRs
+- Show your work/passion to others
 - Learn automation
 - We can get job opportunities
 - ...
