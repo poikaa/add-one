@@ -1,3 +1,3 @@
-export function addTwo(n: number): number {
-  return n + 2
+export function addThree(n: number): number {
+  return n + 3
 }
