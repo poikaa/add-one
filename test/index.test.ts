@@ -1,15 +1,15 @@
-import { addOne } from '../src'
+import { addTwo } from '../src'
 
-describe('addOne', () => {
-  it('Add one to 1', () => {
-    expect(addOne(1)).toEqual(2)
+describe('addTwo', () => {
+  it('Add two to 1', () => {
+    expect(addTwo(1)).toEqual(3)
   })
 
-  it('Add one to 10', () => {
-    expect(addOne(10)).toEqual(11)
+  it('Add two to 10', () => {
+    expect(addTwo(10)).toEqual(12)
   })
 
-  it('Add one to -5', () => {
-    expect(addOne(-5)).toEqual(-4)
+  it('Add two to -5', () => {
+    expect(addTwo(-5)).toEqual(-3)
   })
 })
