@@ -8,5 +8,7 @@ vscode:
 tasks:
   - name: Install Commitizen
     before: npm i -g commitizen
+
   - name: Install dependencies
     init: npm i
+    openMode: tab-after
