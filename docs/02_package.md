@@ -1,11 +1,10 @@
 # NPM module
 
-TODO:
-
-- linter
-- tests
-- ESM
-- TS/docs
+- [TSDX](https://tsdx.io/)
+  - TypeScript/JSDoc
+  - Linter
+  - Tests
+  - ESM
 
 Module:
 
