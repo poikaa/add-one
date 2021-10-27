@@ -1,3 +1,15 @@
+# [2.0.0-beta.2](https://github.com/ikim23/add-one/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2021-10-27)
+
+
+### Features
+
+* change to addThree ([0731284](https://github.com/ikim23/add-one/commit/0731284b2d8afac6f240668004c45665e389f14b))
+
+
+### BREAKING CHANGES
+
+* changed API interface
+
 # [2.0.0-beta.1](https://github.com/ikim23/add-one/compare/v1.0.0...v2.0.0-beta.1) (2021-10-27)
 
 
