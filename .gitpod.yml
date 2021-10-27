@@ -1,0 +1,10 @@
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - eamodio.gitlens
+    - editorconfig.editorconfig
+    - esbenp.prettier-vscode
+
+tasks:
+  - name: Install Commitizen
+    before: npm i -g commitizen
